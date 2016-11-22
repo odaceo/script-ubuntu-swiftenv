@@ -1,6 +1,6 @@
 # Toolbox | Ubuntu | Swift Version Manager
 
-[![License](https://img.shields.io/github/license/odaceo/lab-unikernel-osv-spring-boot.svg)](LICENSE)
+[![License](https://img.shields.io/github/license/odaceo/toolbox-ubuntu-swiftenv.svg)](LICENSE)
 
 ## Description
 
