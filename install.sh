@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Init variables
-Version="3.0.1"
+Version="3.0.2"
 
 # Update your local package index
 sudo apt-get update
