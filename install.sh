@@ -15,13 +15,13 @@
 # limitations under the License.
 
 # Init variables
-Version="3.0.2"
+SWIFT_VERSION=${1:-'3.0.2'}
 
 # Update your local package index
 sudo apt-get update
 
 # Install prerequesites
-sudo apt-get -y install make clang openssl libpython-dev libicu-dev libcurl4-openssl-dev libssl-dev
+sudo apt-get install -y make clang openssl libpython-dev libicu-dev libcurl4-openssl-dev libssl-dev
 
 # Create the directory
 mkdir ~/.swiftenv
@@ -38,4 +38,4 @@ echo 'eval "$(swiftenv init -)"'                | tee -a ~/.bash_profile
 source ~/.bash_profile
 
 # Install Swift
-swiftenv install ${Version}
+swiftenv install ${SWIFT_VERSION}
