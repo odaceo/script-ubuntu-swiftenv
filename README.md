@@ -1,4 +1,4 @@
-# Script | Ubuntu | Swift Version Manager
+# Script :: Ubuntu :: Swift Version Manager
 
 [![License](https://img.shields.io/github/license/odaceo/script-ubuntu-swiftenv.svg)](LICENSE)
 
