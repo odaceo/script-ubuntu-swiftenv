@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # Init variables
-SWIFT_VERSION=${1:-'3.0.2'}
+SWIFT_VERSION=${1:-'3.1.1'}
 
 # Update your local package index
 sudo apt-get update
